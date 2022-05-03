@@ -4,7 +4,7 @@ package org.molakshar.java.dp;
  * This is shameless copy from https://leetcode.com/problems/first-missing-positive/
  */
 public class FirstMissingPositive {
-    public int firstMissingPositive(int[] nums) {
+    public static int firstMissingPositive(int[] nums) {
         // Initialize min.
         int min = 1;
         boolean containsMin = false;
